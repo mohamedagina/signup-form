@@ -1,0 +1,45 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+:root {
+  --colors-red: hsl(0, 100%, 74%);
+  --colors-green: hsl(154, 59%, 51%);
+  --colors-blue: hsl(248, 32%, 49%);
+  --colors-dark-blue: hsl(249, 10%, 26%);
+  --colors-grayish-blue: hsl(246, 25%, 77%);
+  --weight-sm: 400;
+  --weight-md: 500;
+  --weight-lg: 600;
+  --weight-xl: 700;
+}
+
+body {
+  font: var(--weight-sm) 1rem Poppins, sans-serif;
+}
